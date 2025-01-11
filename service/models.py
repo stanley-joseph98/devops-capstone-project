@@ -79,6 +79,8 @@ class PersistentBase:
 ######################################################################
 #  A C C O U N T   M O D E L
 ######################################################################
+
+
 class Account(db.Model, PersistentBase):
     """
     Class that represents an Account

@@ -1,4 +1,5 @@
 """
+
 Test cases for Account Model
 
 """
@@ -17,6 +18,8 @@ DATABASE_URI = os.getenv(
 ######################################################################
 #  Account   M O D E L   T E S T   C A S E S
 ######################################################################
+
+
 class TestAccount(unittest.TestCase):
     """Test Cases for Account Model"""
 
